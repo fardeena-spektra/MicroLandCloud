@@ -2,22 +2,22 @@
   {
     "Name": "Azure Infrastructure — VNet, Azure SQL & Load Balancer (Lab 01)",
     "Language": "English",
-    "BaseURL": "https://raw.githubusercontent.com/Raghavendra-spektra/Mciroland-test/refs/heads/main/Lab-01-AzureDevOps-Networking/LabGuidePackage/LabGuide/",
+    "BaseURL": "https://raw.githubusercontent.com/fardeena-spektra/MicroLandCloud/refs/heads/main/Cloud-Azure-Azure-devops-terraform-git-biceps/LabGuidePackage/LabGuide/",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Raghavendra-spektra/Mciroland-test/refs/heads/main/Lab-01-AzureDevOps-Networking/LabGuidePackage/LabGuide/GettingStarted.md",
+        "RawFilePath": "https://raw.githubusercontent.com/fardeena-spektra/MicroLandCloud/refs/heads/main/Cloud-Azure-Azure-devops-terraform-git-biceps/LabGuidePackage/LabGuide/GettingStarted.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Raghavendra-spektra/Mciroland-test/refs/heads/main/Lab-01-AzureDevOps-Networking/LabGuidePackage/LabGuide/labguide-1.md",
+        "RawFilePath": "https://raw.githubusercontent.com/fardeena-spektra/MicroLandCloud/refs/heads/main/Cloud-Azure-Azure-devops-terraform-git-biceps/LabGuidePackage/LabGuide/labguide-1.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Raghavendra-spektra/Mciroland-test/refs/heads/main/Lab-01-AzureDevOps-Networking/LabGuidePackage/LabGuide/labguide-2.md",
+        "RawFilePath": "https://raw.githubusercontent.com/fardeena-spektra/MicroLandCloud/refs/heads/main/Cloud-Azure-Azure-devops-terraform-git-biceps/LabGuidePackage/LabGuide/labguide-2.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/Raghavendra-spektra/Mciroland-test/refs/heads/main/Lab-01-AzureDevOps-Networking/LabGuidePackage/LabGuide/labguide-3.md",
+        "RawFilePath": "https://raw.githubusercontent.com/fardeena-spektra/MicroLandCloud/refs/heads/main/Cloud-Azure-Azure-devops-terraform-git-biceps/LabGuidePackage/LabGuide/labguide-3.md",
         "Order": 4
       }
     ]
