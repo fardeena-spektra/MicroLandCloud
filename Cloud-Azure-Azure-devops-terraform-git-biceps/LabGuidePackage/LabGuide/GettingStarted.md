@@ -36,9 +36,17 @@ flowchart LR
 
 ## **Getting Started with the lab**
 
-Your virtual machine and this **Guide** are available within your web browser. Use the **Split Window** button at the top-right to open the guide beside your terminal.
+Your virtual machine and this **Guide** are available within your web browser. 
+
+![alt text](../images/00.png)
+
+Use the **Split Window** button at the top-right to open the guide beside your terminal.
+
+![](../images/01.png)
 
 ## **Accessing Your Lab Environment**
+
+![](../images/04.png)
 
 1. Connect to the **JumpVM** over SSH using the details on the **Environment** tab.
 
@@ -68,13 +76,27 @@ Your virtual machine and this **Guide** are available within your web browser. U
 - A base `labvNet` and lab **resource group** are provisioned for you; the JumpVM lives in the base VNet. You create the **assessed** VNet, Azure SQL server/database, and Load Balancer yourself.
 - `/home/labuser/README.txt` records the topology and per-scenario hints.
 
+## **Managing Your Virtual Machine**
+
+![alt text](../images/02.png)
+You may Start, Restart, or Stop your virtual machine at any time using the **Resources** tab available within the lab environment.
+
+
+
+## **Lab Guide Zoom In / Zoom Out**
+
+![](../images/03.png)
+To adjust the zoom level of the lab environment page, use the zoom controls located next to the session timer.
+
 ## **Track Your Progress**
 
-Use the **Validate** button on each task to check your work. The **Progress** tab shows your validation score; it reaches 100% when all task validations pass.
+![alt text](../images/05.png)
+Use the **Validate** button on each task to check your work. 
 
-## **Lab Duration Extension**
+![alt text](../images/6.png)
+The **Progress** tab shows your validation score; it reaches 100% when all task validations pass.
 
-You have **120 minutes** for this assessment. If you need more time, click the **Hourglass** icon in the top-right of the lab environment (it appears when 10 minutes remain) and click **OK**.
+
 
 ## **Support Contact**
 
@@ -84,5 +106,7 @@ The CloudLabs support team is available 24/7 via email and live chat.
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
 Click **Next** to begin Exercise 1.
+
+![alt text](../images/07.png)
 
 ## **Happy Assessing !!**
