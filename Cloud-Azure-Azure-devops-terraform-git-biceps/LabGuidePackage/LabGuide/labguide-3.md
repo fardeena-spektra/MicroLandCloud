@@ -1,8 +1,6 @@
-# Exercise 3: Configure a Load Balancer Fronting Two VMs
+# **Scenario 3: Configure a Load Balancer Fronting Two VMs**
 
-### Estimated Duration: 30 Minutes
-
-## Lab Overview
+## **Lab Overview**
 
 The sales platform's web tier must survive the loss of a single VM and spread traffic across instances. You will configure an **Azure Load Balancer** in your lab resource group that fronts **two backend VMs**, with a **backend pool**, a **health probe**, and a **load-balancing rule** distributing inbound traffic.
 
@@ -10,7 +8,7 @@ This is an **assessment**: the task gives you the **required outcome**, not the 
 
 > **Note:** Connect to the **JumpVM** over SSH, run `az login`, and create all resources in your lab resource group. Put the Load Balancer and both backend VMs in the same VNet/subnet so the backend pool can reach them.
 
-## Task 1: Build a Load Balancer with a 2-VM backend pool, probe, and rule
+## **Task 1: Build a Load Balancer with a 2-VM backend pool, probe, and rule**
 
 **Required outcome:**
 
@@ -24,6 +22,7 @@ Create the two backend VMs (Linux is fine), then `az network lb create` with a b
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-<validation step="a1000003-0003-4a01-8b01-000000000003" />
+<validation step="e0c29ec1-b782-4788-8fce-3a6453bb4a7e" />
+
+**If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.**
