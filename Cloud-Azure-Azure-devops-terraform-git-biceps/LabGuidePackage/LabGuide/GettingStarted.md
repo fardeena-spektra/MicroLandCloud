@@ -76,7 +76,7 @@ Use the **Split Window** button at the top-right to open the guide beside your t
 - A base `labvNet` and lab **resource group** are provisioned for you; the JumpVM lives in the base VNet. You create the **assessed** VNet, Azure SQL server/database, and Load Balancer yourself.
 - `/home/labuser/README.txt` records the topology and per-scenario hints.
 - **Lab Restrictions:** All assessed resources must be created in the **East US (`eastus`)** region. Virtual Machines created during the assessment must use the **Standard_D2s_v3** SKU. Creating resources in other regions or using different VM sizes is not permitted and will be blocked by policy.
-
+---
 
 ## **Managing Your Virtual Machine**
 
