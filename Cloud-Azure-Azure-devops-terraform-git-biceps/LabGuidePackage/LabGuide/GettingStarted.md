@@ -46,9 +46,7 @@ Use the **Split Window** button at the top-right to open the guide beside your t
 
 ## **Accessing Your Lab Environment**
 
-![](../images/04.png)
-
-1. Connect to the **JumpVM** over SSH using the details on the **Environment** tab.
+![](../images/04.png)1. Connect to the **JumpVM** over SSH using the details on the **Environment** tab.
 
     - **SSH command:** see the **LABVM SSH Command** output on the **Environment** tab
     - **Username:** see the **LABVM Admin Username** output on the **Environment** tab
