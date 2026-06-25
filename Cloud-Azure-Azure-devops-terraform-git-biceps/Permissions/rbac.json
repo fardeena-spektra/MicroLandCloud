@@ -1,0 +1,67 @@
+{
+  "Name": "CloudLab Infrastructure Operator",
+  "IsCustom": true,
+  "Description": "Can create and manage CloudLabs assessment resources in East US. Delete operations are restricted.",
+  "Actions": [
+    "Microsoft.Authorization/*/read",
+
+    "Microsoft.Resources/deployments/*",
+    "Microsoft.Resources/deployments/operations/read",
+    "Microsoft.Resources/subscriptions/resourcegroups/deployments/*",
+    "Microsoft.Resources/deployments/read",
+
+    "Microsoft.Resources/subscriptions/resourceGroups/read",
+
+    "Microsoft.Compute/virtualMachines/*",
+    "Microsoft.Compute/disks/*",
+    "Microsoft.Compute/images/read",
+    "Microsoft.Compute/locations/*/read",
+    "Microsoft.Compute/operations/read",
+    "Microsoft.Compute/sshPublicKeys/*",
+
+    "Microsoft.Network/virtualNetworks/*",
+    "Microsoft.Network/virtualNetworks/subnets/*",
+    "Microsoft.Network/networkInterfaces/*",
+    "Microsoft.Network/networkSecurityGroups/*",
+    "Microsoft.Network/publicIPAddresses/*",
+    "Microsoft.Network/loadBalancers/*",
+    "Microsoft.Network/routeTables/*",
+    "Microsoft.Network/locations/*/read",
+    "Microsoft.Network/networkWatchers/read",
+    "Microsoft.Network/operations/read",
+
+    "Microsoft.Sql/servers/*",
+    "Microsoft.Sql/servers/databases/*",
+    "Microsoft.Sql/servers/firewallRules/*",
+    "Microsoft.Sql/locations/*/read",
+    "Microsoft.Sql/operations/read",
+
+    "Microsoft.Storage/storageAccounts/read",
+    "Microsoft.ResourceHealth/availabilityStatuses/read"
+  ],
+  "NotActions": [
+    "Microsoft.Compute/virtualMachines/delete",
+    "Microsoft.Compute/disks/delete",
+
+    "Microsoft.Network/virtualNetworks/delete",
+    "Microsoft.Network/networkInterfaces/delete",
+    "Microsoft.Network/networkSecurityGroups/delete",
+    "Microsoft.Network/publicIPAddresses/delete",
+    "Microsoft.Network/loadBalancers/delete",
+    "Microsoft.Network/routeTables/delete",
+
+    "Microsoft.Sql/servers/delete",
+    "Microsoft.Sql/servers/databases/delete",
+
+    "Microsoft.Resources/deployments/delete",
+
+    "Microsoft.Authorization/roleAssignments/delete",
+    "Microsoft.Authorization/policyAssignments/delete",
+    "Microsoft.Authorization/roleDefinitions/delete",
+    "Microsoft.Authorization/policySetDefinitions/delete",
+
+    "Microsoft.Authorization/elevateAccess/action",
+    "Microsoft.Authorization/roleDefinitions/write",
+    "Microsoft.Authorization/roleAssignments/write"
+  ]
+}

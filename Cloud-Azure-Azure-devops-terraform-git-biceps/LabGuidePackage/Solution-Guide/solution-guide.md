@@ -158,3 +158,6 @@ az network lb show -g "$RG" -n salesLb \
 - Resource creation needs the candidate to have run `az login` and have **Contributor** on the lab resource group. Azure SQL server names and Load Balancer public IPs are globally unique, so candidates may pick different names — the validators match on **type and configuration**, not on exact names.
 - The Exercise 2 validator passes on the **existence of the database**; the in-VM `sqlcmd` connectivity probe is a best-effort secondary signal (it can fail transiently on firewall propagation without failing the task).
 - Provisioning two VMs + a Standard Load Balancer can take several minutes; allow time before validating Exercise 3.
+
+
+

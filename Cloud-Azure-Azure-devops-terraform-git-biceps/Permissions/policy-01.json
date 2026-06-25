@@ -1,0 +1,9 @@
+{
+  "if": {
+    "field": "location",
+    "notEquals": "eastus"
+  },
+  "then": {
+    "effect": "deny"
+  }
+}
