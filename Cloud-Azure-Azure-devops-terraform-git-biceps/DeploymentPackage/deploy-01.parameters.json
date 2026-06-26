@@ -25,6 +25,27 @@
     },
     "trainerUserPassword": {
       "value": "GEN-PASSWORD"
+    },
+    "ApplicationID": { 
+      "value": "GET-SERVICEPRINCIPAL-APPLICATION-ID" 
+    },
+    "ApplicationSecret": { 
+      "value": "GET-SERVICEPRINCIPAL-SECRET" 
+    },
+    "TenantDomainName": {
+      "value": "GET-TENANT-FQDN" 
+    },
+    "SPDisplayName": {
+      "value": "GET-SERVICEPRINCIPAL-NAME" 
+    },
+    "SPObjectID": {
+      "value": "GET-SERVICEPRINCIPAL-OBJECT-ID" 
+    },
+    "subscriptionId": {
+      "value": "GET-SUBSCRIPTION" 
+    },
+    "tenantId": {
+      "value": "GET-TENANT-ID" 
     }
   }
 }
